@@ -1,0 +1,26 @@
+{
+  "name": "prismagram",
+  "version": "1.0.0",
+  "description": "Prismagram",
+  "main": "index.js",
+  "repository": "https://github.com/delta94/Prismagram.git",
+  "author": "truong nguyen <n.h.t.94.e@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2",
+    "babel-cli": "^7.4.4",
+    "babel-node": "^0.0.1-security",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
+    "nodemon": "^2.0.4"
+  }
+}
